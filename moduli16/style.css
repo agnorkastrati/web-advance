@@ -18,3 +18,20 @@ div.desc{
     padding: 15px;
     text-align:center
 }
+.sprite{
+    background: url("images/house.png")no-repeat;
+}
+.shadows{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: -500px -500px;
+}
+
+.engineers{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: 0px 0px;
+}
+
