@@ -35,3 +35,29 @@ div.desc{
     background-position: 0px 0px;
 }
 
+a[href="https://shkolladigjitale.com/"]{
+    color: navy;
+}
+
+p[class*="ds"]{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+
+}
+
+div[id~="ds"]{
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
+
+img[title^="blue"]{
+    border: 2px solid blue;
+}
+
+h1[class|=heading]{
+    background: red;
+    padding: 20px;
+    color: white;
+}
