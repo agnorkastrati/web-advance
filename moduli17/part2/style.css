@@ -39,7 +39,45 @@ p{
     margin: 10px;
     width:150px;
     height: 150px; 
-   background-image:/lines.png;
+   background: url(../lines.png);
+}
+
+#example-four{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px 60px 5px;
+    background: #BADA55;
+    
+}
+
+
+#example-five{
+    border-radius: 10px / 30px;
+}
+
+
+#example-six{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px/10px;
+    background: #BADA55;
+}
+
+.example{
+    margin-bottom: 30px;
+}
+
+.example h2{
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.border-image-demo{
+    border:25px solid transparent;
+    border-image:url('images/beach.png') ;
 }
 
 body{
