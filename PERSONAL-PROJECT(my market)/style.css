@@ -1,0 +1,119 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+}
+
+nav{
+    background:#222;
+    display:flex;
+    justify-content:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    padding:15px 20px;
+}
+
+nav a:hover{
+    background:red;
+    transition:0.5s;
+}
+
+header{
+    text-align:center;
+    padding:40px;
+    background:#f4f4f4;
+}
+
+.products{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    padding:20px;
+}
+
+.card{
+    width:300px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    overflow:hidden;
+    text-align:center;
+    animation:fadeIn 2s;
+}
+
+.card img{
+    width:100%;
+}
+
+footer{
+    text-align:center;
+    background:#222;
+    color:white;
+    padding:15px;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+@media(max-width:768px){
+    .products{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .card{
+        width:90%;
+    }
+}
+
+.about-market{
+    text-align:center;
+    padding:30px;
+    max-width:900px;
+    margin:auto;
+}
+
+.card{
+    width:300px;
+    border-radius:15px;
+    overflow:hidden;
+    background:white;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    transition:0.5s;
+    animation:fadeUp 1.5s ease;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    transition:0.5s;
+}
+
+.card img:hover{
+    transform:scale(1.08);
+}
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(50px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}

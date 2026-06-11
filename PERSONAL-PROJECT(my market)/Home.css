@@ -1,0 +1,54 @@
+body{
+font-family:Arial;
+margin:0;
+}
+
+nav{
+display:flex;
+justify-content:center;
+background:black;
+}
+
+nav a{
+color:white;
+padding:15px;
+text-decoration:none;
+}
+
+nav a:hover{
+background:red;
+transition:0.5s;
+}
+
+header{
+text-align:center;
+padding:30px;
+}
+
+.products{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card{
+border:1px solid gray;
+padding:10px;
+animation:show 2s;
+}
+
+.card img{
+width:100%;
+}
+
+@keyframes show{
+from{opacity:0;}
+to{opacity:1;}
+}
+
+@media(max-width:768px){
+.products{
+flex-direction:column;
+}
+}
