@@ -2,6 +2,7 @@ body{
     margin:0;
     font-family:Arial;
     text-align:center;
+    background-color: burlywood;
 }
 
 nav{
@@ -35,10 +36,11 @@ header{
     border-radius:10px;
     box-shadow:0 0 10px gray;
     transition:0.3s;
+    justify-content: center;
 }
 
 .gallery img:hover{
-    transform:scale(1.05); /* zmadhohet pak */
+    transform:scale(1.05);
 }
 
 footer{
